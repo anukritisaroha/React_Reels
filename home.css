@@ -1,0 +1,26 @@
+.home-logout-btn{
+    position: fixed;
+    bottom: 4rem;
+    right: 20px;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    border: none;
+}
+.video-container{
+    height: 100vh;
+    width: 100vw;
+    /* this scroll snap helps to scroll videos nd video card start attach to each other */
+    scroll-snap-type: y mandatory;
+    background-color: black;
+    overflow-y: scroll;
+}
+
+input[type="file"]{
+    border: none;
+    outline: none;
+    width: 6rem;
+    position: fixed;
+    bottom: 12rem;
+    right: 20px;
+}
